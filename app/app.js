@@ -8,7 +8,8 @@ gifPartyApp.config(["$routeProvider",
   function($routeProvider) {
     $routeProvider.
       when("/angry", {
-        templateUrl: "views/gifs.html",
-        controller: "AngryController"
+        templateUrl: "/app/views/gifs.html",
+        controller: "AngryController",
+        controllerAs: "ctrl"
       })
   }]);
