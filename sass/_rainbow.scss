@@ -1,0 +1,48 @@
+// originally sourced from
+// http://codepen.io/beben-koben/pen/gfuvc
+
+.rainbowBackground {
+  -webkit-animation:rainbowBackground 30s infinite;
+  -ms-animation:rainbowBackground 30s infinite;
+  -o-animation:rainbowBackground 30s infinite;
+  animation:rainbowBackground 30s infinite;
+}
+
+@mixin rainbowText {
+  0% {color: #ff0000;}
+  10% {color: #ff8000;}
+  20% {color: #ffff00;}
+  30% {color: #80ff00;}
+  40% {color: #00ff00;}
+  50% {color: #00ff80;}
+  60% {color: #00ffff;}
+  70% {color: #0080ff;}
+  80% {color: #0000ff;}
+  90% {color: #8000ff;}
+  100% {color: #ff0080;}
+}
+
+@mixin rainbowBackground {
+  0% {background-color: #ff0000;}
+  10% {background-color: #ff8000;}
+  20% {background-color: #ffff00;}
+  30% {background-color: #80ff00;}
+  40% {background-color: #00ff00;}
+  50% {background-color: #00ff80;}
+  60% {background-color: #00ffff;}
+  70% {background-color: #0080ff;}
+  80% {background-color: #0000ff;}
+  90% {background-color: #8000ff;}
+  100% {background-color: #ff0080;}
+}
+
+
+@-webkit-keyframes rainbowText { @include rainbowText; }
+@-ms-keyframes rainbowText { @include rainbowText; }
+@-o-keyframes rainbowText { @include rainbowText; }
+@keyframes rainbowText { @include rainbowText; }
+
+@-webkit-keyframes rainbowBackground { @include rainbowBackground; }
+@-ms-keyframes rainbowBackground { @include rainbowBackground; }
+@-o-keyframes rainbowBackground { @include rainbowBackground; }
+@keyframes rainbowBackground { @include rainbowBackground; }
