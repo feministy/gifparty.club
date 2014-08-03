@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="gifParty">
+<html lang="en" ng-app="gifPartyApp">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,13 +19,16 @@
     <div id="header" class="rainbowBackground">
       <h1>gifparty.club</h1>
     </div>
-    <div id="content">
+    <div id="content" ng-view>
     </div>
   </body>
 
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular.min.js"></script>
+  <script src="angular-route.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script type="text/javascript" src="//use.typekit.net/oit0iih.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-  <script src="/app/directives/menu.js"></script>
+  <script src="/app/directives.js"></script>
+  <script src="/app/controllers.js"></script>
+  <script src="/app/app.js"></script>
 </html>
