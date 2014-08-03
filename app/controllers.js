@@ -8,3 +8,120 @@ gifPartyCtrls.controller('AngryController', ['$http', function($http) {
       items.imgs = data;
   });
 }]);
+
+gifPartyCtrls.controller('AnnoyedController', ['$http', function($http) {
+  var items = this;
+  items.imgs = {};
+
+  $http.get("http://gifserver.herokuapp.com/api/annoyed.json").success(function(data) {
+      items.imgs = data;
+  });
+}]);
+
+gifPartyCtrls.controller('ComfortingController', ['$http', function($http) {
+  var items = this;
+  items.imgs = {};
+
+  $http.get("http://gifserver.herokuapp.com/api/comforting.json").success(function(data) {
+      items.imgs = data;
+  });
+}]);
+
+gifPartyCtrls.controller('CuteController', ['$http', function($http) {
+  var items = this;
+  items.imgs = {};
+
+  $http.get("http://gifserver.herokuapp.com/api/cute.json").success(function(data) {
+      items.imgs = data;
+  });
+}]);
+
+gifPartyCtrls.controller('DancingController', ['$http', function($http) {
+  var items = this;
+  items.imgs = {};
+
+  $http.get("http://gifserver.herokuapp.com/api/dancing.json").success(function(data) {
+      items.imgs = data;
+  });
+}]);
+
+gifPartyCtrls.controller('EvilController', ['$http', function($http) {
+  var items = this;
+  items.imgs = {};
+
+  $http.get("http://gifserver.herokuapp.com/api/evil.json").success(function(data) {
+      items.imgs = data;
+  });
+}]);
+
+gifPartyCtrls.controller('FuckYouController', ['$http', function($http) {
+  var items = this;
+  items.imgs = {};
+
+  $http.get("http://gifserver.herokuapp.com/api/fuck_you.json").success(function(data) {
+      items.imgs = data;
+  });
+}]);
+
+gifPartyCtrls.controller('FunnyController', ['$http', function($http) {
+  var items = this;
+  items.imgs = {};
+
+  $http.get("http://gifserver.herokuapp.com/api/funny.json").success(function(data) {
+      items.imgs = data;
+  });
+}]);
+
+gifPartyCtrls.controller('HappyController', ['$http', function($http) {
+  var items = this;
+  items.imgs = {};
+
+  $http.get("http://gifserver.herokuapp.com/api/happy.json").success(function(data) {
+      items.imgs = data;
+  });
+}]);
+
+gifPartyCtrls.controller('NopeController', ['$http', function($http) {
+  var items = this;
+  items.imgs = {};
+
+  $http.get("http://gifserver.herokuapp.com/api/nope.json").success(function(data) {
+      items.imgs = data;
+  });
+}]);
+
+gifPartyCtrls.controller('SadController', ['$http', function($http) {
+  var items = this;
+  items.imgs = {};
+
+  $http.get("http://gifserver.herokuapp.com/api/sad.json").success(function(data) {
+      items.imgs = data;
+  });
+}]);
+
+gifPartyCtrls.controller('VictoryController', ['$http', function($http) {
+  var items = this;
+  items.imgs = {};
+
+  $http.get("http://gifserver.herokuapp.com/api/victory.json").success(function(data) {
+      items.imgs = data;
+  });
+}]);
+
+gifPartyCtrls.controller('WhateverController', ['$http', function($http) {
+  var items = this;
+  items.imgs = {};
+
+  $http.get("http://gifserver.herokuapp.com/api/whatever.json").success(function(data) {
+      items.imgs = data;
+  });
+}]);
+
+gifPartyCtrls.controller('WtfController', ['$http', function($http) {
+  var items = this;
+  items.imgs = {};
+
+  $http.get("http://gifserver.herokuapp.com/api/wtf.json").success(function(data) {
+      items.imgs = data;
+  });
+}]);
