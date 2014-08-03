@@ -1,0 +1,18 @@
+{
+  "items": [
+    { "url": "/#/angry", "label": "angry" },
+    { "url": "/#/annoyed", "label": "annoyed" },
+    { "url": "/#/comforting", "label": "comforting" },
+    { "url": "/#/cute", "label": "cute" },
+    { "url": "/#/dancing", "label": "dancing" },
+    { "url": "/#/evil", "label": "evil" },
+    { "url": "/#/fuck_you", "label": "f*ck you" },
+    { "url": "/#/funny", "label": "funny" },
+    { "url": "/#/happy", "label": "happy" },
+    { "url": "/#/nope", "label": "nope" },
+    { "url": "/#/sad", "label": "sad" },
+    { "url": "/#/victory", "label": "victory" },
+    { "url": "/#/whatever", "label": "whatever" },
+    { "url": "/#/wtf", "label": "wtf?" }
+  ]
+}
