@@ -1,6 +1,6 @@
-var gifPartyDirectives = angular.module("gifPartyDirectives", []);
+var gifPartyDirs = angular.module("gifPartyDirs", []);
 
-gifPartyDirectives.directive("menu", ['$http', function($http) {
+gifPartyDirs.directive("menu", ['$http', function($http) {
   return {
     restrict: "E",
     templateUrl: "/app/views/menu.html",

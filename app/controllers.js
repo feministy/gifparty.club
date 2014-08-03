@@ -1,6 +1,6 @@
-var gifPartyControllers = angular.module("gifPartyControllers", []);
+var gifPartyCtrls = angular.module("gifPartyCtrls", []);
 
-gifPartyControllers.controller('AngryController', function() {
+gifPartyCtrls.controller('AngryController', ['$http', function($http) {
   var items = this;
   items.images = [];
-});
+}]);

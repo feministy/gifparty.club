@@ -1,7 +1,7 @@
 var gifPartyApp = angular.module("gifPartyApp", [
   'ngRoute',
-  'gifPartyDirectives',
-  'gifPartyControllers'
+  'gifPartyDirs',
+  'gifPartyCtrls'
   ]);
 
 gifPartyApp.config(["$routeProvider",
