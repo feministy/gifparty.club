@@ -1,8 +1,8 @@
 .rainbowBackground {
-  -webkit-animation: rainbowBackground 30s infinite;
-  -ms-animation: rainbowBackground 30s infinite;
-  -o-animation: rainbowBackground 30s infinite;
-  animation: rainbowBackground 30s infinite; }
+  -webkit-animation: rainbowBackground 15s infinite;
+  -ms-animation: rainbowBackground 15s infinite;
+  -o-animation: rainbowBackground 15s infinite;
+  animation: rainbowBackground 15s infinite; }
 
 @-webkit-keyframes rainbowText {
   0% {
@@ -37,6 +37,7 @@
 
   100% {
     color: #ff0080; } }
+
 @-ms-keyframes rainbowText {
   0% {
     color: #ff0000; }
@@ -70,6 +71,7 @@
 
   100% {
     color: #ff0080; } }
+
 @-o-keyframes rainbowText {
   0% {
     color: #ff0000; }
@@ -103,6 +105,7 @@
 
   100% {
     color: #ff0080; } }
+
 @keyframes rainbowText {
   0% {
     color: #ff0000; }
@@ -136,6 +139,7 @@
 
   100% {
     color: #ff0080; } }
+
 @-webkit-keyframes rainbowBackground {
   0% {
     background-color: #ff0000; }
@@ -169,6 +173,7 @@
 
   100% {
     background-color: #ff0080; } }
+
 @-ms-keyframes rainbowBackground {
   0% {
     background-color: #ff0000; }
@@ -202,6 +207,7 @@
 
   100% {
     background-color: #ff0080; } }
+
 @-o-keyframes rainbowBackground {
   0% {
     background-color: #ff0000; }
@@ -235,6 +241,7 @@
 
   100% {
     background-color: #ff0080; } }
+
 @keyframes rainbowBackground {
   0% {
     background-color: #ff0000; }
@@ -268,6 +275,7 @@
 
   100% {
     background-color: #ff0080; } }
+
 body {
   padding: 0px;
   margin: 0px;

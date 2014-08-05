@@ -2,10 +2,10 @@
 // http://codepen.io/beben-koben/pen/gfuvc
 
 .rainbowBackground {
-  -webkit-animation:rainbowBackground 30s infinite;
-  -ms-animation:rainbowBackground 30s infinite;
-  -o-animation:rainbowBackground 30s infinite;
-  animation:rainbowBackground 30s infinite;
+  -webkit-animation:rainbowBackground 15s infinite;
+  -ms-animation:rainbowBackground 15s infinite;
+  -o-animation:rainbowBackground 15s infinite;
+  animation:rainbowBackground 15s infinite;
 }
 
 @mixin rainbowText {
