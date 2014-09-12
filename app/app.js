@@ -57,6 +57,11 @@ gifPartyApp.config(["$routeProvider",
         controller: "NopeController",
         controllerAs: "ctrl"
       })
+      .when("/punz", {
+        templateUrl: "/app/views/gifs.html",
+        controller: "PunzController",
+        controllerAs: "ctrl"
+      })
       .when("/sad", {
         templateUrl: "/app/views/gifs.html",
         controller: "SadController",

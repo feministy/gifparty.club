@@ -130,6 +130,19 @@ gifPartyCtrls.controller('NopeController', ['$http', function($http) {
   }
 }]);
 
+gifPartyCtrls.controller('PunzController', ['$http', function($http) {
+  var items = this;
+  items.imgs = {};
+
+  $http.get("http://gifserver.herokuapp.com/api/punz.json").success(function(data) {
+      items.imgs = data;
+  });
+
+  this.displayUrl = function displayUrl(image) {
+    window.prompt("Copy to clipboard: Ctrl+C, Enter", image);
+  }
+}]);
+
 gifPartyCtrls.controller('SadController', ['$http', function($http) {
   var items = this;
   items.imgs = {};
