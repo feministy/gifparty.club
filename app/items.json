@@ -51,6 +51,11 @@
         "api": "http://gifserver.herokuapp.com/api/nope.json"
     },
     {
+        "url": "/#/punz",
+        "label": "punz",
+        "api": "http://gifserver.herokuapp.com/api/punz.json"
+    },
+    {
         "url": "/#/sad",
         "label": "sad",
         "api": "http://gifserver.herokuapp.com/api/sad.json"
