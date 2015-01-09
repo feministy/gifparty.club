@@ -8,6 +8,8 @@ gem 'compass-rails'
 gem 'jade', '~> 0.1.1'
 gem 'uglifier', '>= 1.3.0'
 
+gem 'paperclip', '~> 4.2'
+
 gem 'jquery-rails'
 gem 'spring',        group: :development
 
