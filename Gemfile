@@ -2,10 +2,11 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.1.6'
 gem 'pg'
-gem 'sass-rails', '~> 4.0.3'
+gem 'compass', '~> 1.0.3'
+gem 'sass-rails', '~> 5.0.1'
 gem 'compass-rails'
 
-gem 'jade', '~> 0.1.1'
+gem 'haml-rails'
 gem 'uglifier', '>= 1.3.0'
 
 gem 'paperclip', '~> 4.2'
