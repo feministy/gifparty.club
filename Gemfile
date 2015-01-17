@@ -4,6 +4,7 @@ gem 'rails', '4.1.6'
 gem 'pg'
 gem 'compass', '~> 1.0.3'
 gem 'sass-rails', '~> 5.0.1'
+gem 'compass-rails', '~> 2.0.4'
 
 gem 'haml-rails'
 gem 'uglifier', '>= 1.3.0'
