@@ -1,6 +1,15 @@
-User.create!({
-  name: 'liz',
-  password: 'password',
-  password_confirmation: 'password',
-  email: 'me@liz.codes'
-})
+Category.create!(name: 'angry')
+Category.create!(name: 'annoyed')
+Category.create!(name: 'comforting')
+Category.create!(name: 'cute')
+Category.create!(name: 'dancing')
+Category.create!(name: 'evil')
+Category.create!(name: 'fuckyou')
+Category.create!(name: 'funny')
+Category.create!(name: 'happy')
+Category.create!(name: 'nope')
+Category.create!(name: 'punz')
+Category.create!(name: 'sad')
+Category.create!(name: 'victory')
+Category.create!(name: 'whatever')
+Category.create!(name: 'wtf')
