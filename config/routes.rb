@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   resources :gifs
 
-  resources :users
+  resources :users, only: :show
 
   resources :categories
 end
