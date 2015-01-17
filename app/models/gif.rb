@@ -8,9 +8,9 @@ class Gif < ActiveRecord::Base
 
   def s3_credentials
     {
-      bucket: "xxx",
-      access_key_id: "xxx",
-      secret_access_key: "xxx"
+      bucket: "gifpartyclub",
+      access_key_id: ENV['AWS_GIFPARTY_PAPERCLIP_ACCESS'],
+      secret_access_key: ENV['AWS_GIFPARTY_PAPERCLIP_SECRET']
     }
   end
 end
