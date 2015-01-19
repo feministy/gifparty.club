@@ -3,18 +3,14 @@
     #error_explanation
       %h2
         = pluralize(@gif.errors.count, "error")
-        prohibited this gif from being saved:
+        prohibited this gif from being uploaded:
       %ul
         - @gif.errors.full_messages.each do |message|
           %li= message
   .field
-    = f.label :user_id
-    %br/
-    = f.text_field :user_id
-  .field
     = f.label :category_id
-    %br/
-    = f.text_field :category_id
+    %br
+    = f.select :category_id, content_tag(:option, 'Select one', value: nil) + options_from_collection_for_select(@categories, 'id', 'name')
   .field
     = f.label :image
     %br
