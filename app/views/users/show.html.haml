@@ -11,3 +11,8 @@
 %h2 upload a new gif
 
 = render partial: 'gifs/form'
+
+%h2 your gifs
+
+- @user.gifs.each do |gif|
+  = image_tag(gif.image)
