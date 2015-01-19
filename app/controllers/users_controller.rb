@@ -5,6 +5,7 @@ class UsersController < ApplicationController
   def show
     permission_denied unless is_owner?
     @gif = Gif.new
+    @categories = Category.all
   end
 
   private
