@@ -8,4 +8,8 @@ class ApplicationController < ActionController::Base
   def permission_denied
     render file: "public/401.html", status: :unauthorized
   end
+
+  def uhoh
+    render file: "public/500.html", status: :error
+  end
 end
