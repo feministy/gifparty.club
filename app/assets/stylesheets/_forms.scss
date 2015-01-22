@@ -1,0 +1,19 @@
+@import "colors";
+
+input[type='text'], input[type='password'] {
+  padding: 5px 10px;
+}
+
+.submit, input[type='submit'] {
+  padding:5px 15px;
+  background: #ffffff;
+  border: 1px solid lighten(color(gray), 70%);
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 0px;
+}
+
+.actions, .field {
+  text-transform: lowercase;
+  padding: 10px 0px;
+}

@@ -1,0 +1,19 @@
+= form_tag sessions_path do
+  - if @user.errors.any?
+    #error_explanation
+      %h2
+        = pluralize(@user.errors.count, "error")
+        prohibited this gif from being saved:
+      %ul
+        - @user.errors.full_messages.each do |message|
+          %li= message
+  .field
+    = label_tag :name
+    %br/
+    = text_field_tag :name
+  .field
+    = label_tag :password
+    %br
+    = password_field_tag :password
+  .actions
+    = submit_tag 'log in', class: 'submit'

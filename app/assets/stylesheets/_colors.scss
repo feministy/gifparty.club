@@ -1,0 +1,40 @@
+$colors: (
+  purple: #513F82,
+  blue: #3460F4,
+  teal: #00A388,
+  green: #BEDB39,
+  yellow: #FFE11A,
+  orange: #FD7400,
+  red: #E80016,
+  pink: #E84295,
+  gray: #333333
+);
+
+$white: darken(#fff, 3%);
+$text: map-get($colors, gray);
+
+@function color($color) {
+  @return map-get($colors, $color);
+}
+
+@each $color, $hex in $colors {
+  .text-#{$color} {
+    color: $hex;
+  }
+
+  .text-#{$color}-light {
+    color: lighten($hex, 30%);
+  }
+
+  .text-#{$color}-lightest {
+    color: lighten($hex, 50%);
+  }
+
+  .background-#{$color} {
+    background-color: $hex;
+  }
+
+  .background-#{$color}-lightest {
+    background-color: lighten($hex, 70%);
+  }
+}
