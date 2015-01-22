@@ -8,6 +8,7 @@ class CategoriesController < ApplicationController
 
   # GET /categories/1
   def show
+    @gifs = Gif.where(category: @category)
   end
 
   private
