@@ -6,4 +6,6 @@ Rails.application.routes.draw do
 
   # custom route for fancy path
   get ':id' => 'categories#show', as: 'category'
+
+  root 'pages#index'
 end
