@@ -1,8 +1,13 @@
 $colors: (
-  teal: #80DDBE,
-  red: #FC584C,
-  orange: #FF8D45,
-  gray: #333336
+  purple: #513F82,
+  blue: #3460F4,
+  teal: #00A388,
+  green: #BEDB39,
+  yellow: #FFE11A,
+  orange: #FD7400,
+  red: #E80016,
+  pink: #E84295,
+  gray: #333333
 );
 
 $white: darken(#fff, 3%);
@@ -10,18 +15,6 @@ $text: map-get($colors, gray);
 
 @function color($color) {
   @return map-get($colors, $color);
-}
-
-@function color_dark($color) {
-  @return darken(map-get($colors, $color), 20%);
-}
-
-@function color_light($color) {
-  @return lighten(map-get($colors, $color), 20%);
-}
-
-@function color_lightest($color) {
-  @return lighten(map-get($colors, $color), 70%);
 }
 
 @each $color, $hex in $colors {

@@ -30,10 +30,10 @@ em {
 }
 
 a {
-  color: color(teal);
+  color: color(gray);
   text-decoration: none;
   &:hover {
-    color: color_dark(teal);
+    color: lighten(color(gray), 60%);
   }
 }
 
@@ -46,33 +46,6 @@ h2 {
 }
 
 h3 {
-  @include adjust-font-size-to(20px);
-}
-
-h4 {
-  @include adjust-font-size-to(16px);
-  text-transform: uppercase;
-}
-
-h5 {
-  text-decoration: underline;
-}
-
-.header {
-  text-transform: lowercase;
-  h1, h2 {
-    display: inline-block;
-  }
-  h2:before {
-    content: ' / ';
-  }
-  padding-bottom: 40px;
-}
-
-.text-heavy {
+  @include adjust-font-size-to(18px);
   font-weight: 700;
-}
-
-.text-medium {
-  font-weight: 500;
 }
