@@ -3,7 +3,7 @@ class Gif < ActiveRecord::Base
   belongs_to :category
   has_attached_file :image,
                     :storage => :s3,
-                    :styles => { :thumb => "200x200>" },
+                    :styles => { :thumb => "200x200>", :large => "500x500>" },
                     :s3_credentials => {bucket: "gifpartyclub", access_key_id: ENV['AWS_GIFPARTY_PAPERCLIP_ACCESS'], secret_access_key: ENV['AWS_GIFPARTY_PAPERCLIP_SECRET']}
 
   validates_presence_of :user, :category
