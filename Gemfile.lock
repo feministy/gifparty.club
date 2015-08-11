@@ -98,6 +98,7 @@ GEM
     minitest (5.5.0)
     multi_json (1.10.1)
     multi_xml (0.5.5)
+    newrelic_rpm (3.13.0.299)
     nokogiri (1.6.5)
       mini_portile (~> 0.6.0)
     paperclip (4.2.1)
@@ -175,6 +176,7 @@ DEPENDENCIES
   friendly_id (~> 5.1.0)
   haml-rails
   jquery-rails
+  newrelic_rpm
   paperclip (~> 4.2)
   pg
   rails (= 4.1.6)
