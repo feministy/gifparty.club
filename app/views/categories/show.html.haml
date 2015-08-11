@@ -1,4 +1,2 @@
-%em copy link address for gif url
-
 - @gifs.each do |gif|
-  = link_to image_tag gif.image.url(:thumb), gif.image.url(:original)
+  = image_tag gif.image.url(:original)
