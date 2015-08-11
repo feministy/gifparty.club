@@ -10,7 +10,7 @@
   .field
     = f.label :category_id
     %br
-    = f.select :category_id, content_tag(:option, 'Select one', value: nil) + options_from_collection_for_select(@categories, 'id', 'name')
+    = f.select :category_id, content_tag(:option, 'Select one', value: nil) + options_from_collection_for_select(@categories.sort_by(&:name), 'id', 'name')
   .field
     = f.label :image
     %br
