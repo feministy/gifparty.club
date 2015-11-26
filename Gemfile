@@ -15,6 +15,9 @@ gem 'aws-sdk', '~> 1.5.7'
 gem 'jquery-rails'
 gem 'spring',        group: :development
 
+gem 'delayed_job_active_record'
+gem 'delayed_paperclip'
+
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
